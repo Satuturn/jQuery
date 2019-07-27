@@ -1,0 +1,10 @@
+.box1, .box2, .box3 {
+    height: 100px;
+    width: 100px;
+    background-color: #eee;
+    transition: all .5 ease;
+}
+
+.orange {
+    background-color: orange;
+}

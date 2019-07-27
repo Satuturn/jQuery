@@ -1,0 +1,35 @@
+section {
+    height: 100vh; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section:nth-child(1) {
+    background-image: url(https://images.unsplash.com/photo-1525947492078-1fe6d5e25216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+section:nth-child(2) {
+    background-image: url(https://images.unsplash.com/photo-1463740839922-2d3b7e426a56?ixlib=rb-1.2.1&auto=format&fit=crop&w=1419&q=80);
+}
+
+section:nth-child(3) {
+    background-image: url(https://images.unsplash.com/photo-1526371786536-4356f031d62f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+}
+
+section:nth-child(4) {
+    background-image: url(https://images.unsplash.com/photo-1498557850523-fd3d118b962e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+section:nth-child(5) {
+    background-image: url(https://images.unsplash.com/photo-1544922867-48d43f67f302?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+}
+
+.btnTop {
+    position: fixed;
+    right: 50px;    
+    bottom: 30px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 3px;
+}
